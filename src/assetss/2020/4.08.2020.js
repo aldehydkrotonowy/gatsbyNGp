@@ -9,8 +9,8 @@ const dayNote = {
 
   ],
   [keys._bulletsList.name]: [
-    "Odezwała się kolejna rekruterka na LinkedIn, tym razem z GFT",
-    "Wysłałem CV do Krzysztofa Bergiela z Sitecore",
+    "Recruiter from GFT is interested in my application.",
+    "I have send CV to Krzysztof Bergiela from Sitecore",
     ""
   ],
   [keys._longerNotes.name]: [

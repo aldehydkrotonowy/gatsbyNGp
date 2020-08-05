@@ -7,13 +7,12 @@ export const dayNote = {
   [keys._keywords.name]: ["Quantum Flux Parametron"],
   [keys._workEvents.name]: [],
   [keys._bulletsList.name]: [
-    "Odpowiedziałem na LinkedIn rekruterce od GFT",
-    ""
+    "Today I replied to recruiter from GFT, and I gave her my phone number.",
   ],
   [keys._longerNotes.name]: [
     {
-      "title": "Problem ze snackbarem i edycją Material Table",
-      "text": "Dziś napotkałem ciekawy problem z Material-table. Mianowicie wyświetlanie snackbara zostało przedłużone do 10s. Jeśli tabelka jest w trybie edycji a snackbar się nie zdążył zamknać, to odklikanie powoduje zamknięcie snackbara w efekcie czego tabelka renderuje się ponownie i staje się szara. Na przyszłość muszę przemyśleć pisanie komponentów tak aby zmiana stat-u jakiegoś komponentu nie powodowała niepotrzebnego przerenderowania innego."
+      "title": "The problem with snackbar and editing in Material Table",
+      "text": "Today I encounter interesting problem with Material Table.  Namely we prolonged display time of snackbar from 3s to 10s. If table is in edit mode and snackbar is still on the screen clicking somewhere outside table results in closing snackbar and as a result whole table is re rendered again and becomes gray and inactive. In the future I have to rethink how to write components in such a way that any state change of some component did not cause unnecessary re render other components."
     }
   ],
   [keys._articlesList.name]: [

@@ -7,13 +7,13 @@ const dayNote = {
 	[keys._keywords.name]: ["quantum gates", 'Hilbert space'],
 	[keys._workEvents.name]: [],
 	[keys._bulletsList.name]: [
-		"Zadzwoniła do mnie pani z TeamUp w sprawie rekrutacji do Commertzbank. Umieściłem swoje CV w ich bazie.",
-		"Kobieta z ITDS na LinkedIn odpisała mi, że niestety, ale 2 lata stażu to za mało dla nich"
+		"Women from TeamUp called me about application to Commerzbank. I have placed CV in their database.",
+		"Recruiter form ITS wrote me that unfortunately but 2 year experience as developer is not enough."
 	],
 	[keys._longerNotes.name]: [
 		{
 			"title": "Quantum Computing",
-			"text": "Zacząłem trochę czytać o tym czym jest <s'quantum computing's/>, ściągnąłem nawet kilka książek, ale wygląda na to, że będzie cieżko coś z tego zrozumieć"
+			"text": "I have started to read about <s' quantum computing's/>, I even downloaded some books in this topic but it looks like it will be hard to understand this topic. "
 		}
 	],
 	[keys._articlesList.name]: [
