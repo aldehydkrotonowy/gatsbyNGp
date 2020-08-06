@@ -1,4 +1,5 @@
-import { keys } from '../keys';
+import { keys } from "../keys"
+// import tags from '../tags';
 
 export const dayNote = {
   [keys._date.name]: "",
@@ -8,14 +9,15 @@ export const dayNote = {
   [keys._bulletsList.name]: [],
   [keys._longerNotes.name]: [
     {
-      "title": "",
-      "text": ""
-    }
+      title: "",
+      text: "",
+    },
   ],
   [keys._articlesList.name]: [
     {
       title: "",
-      url: ""
-    }
-  ]
+      url: "",
+      interesting: [],
+    },
+  ],
 }

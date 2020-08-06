@@ -1,7 +1,6 @@
 const tags = {
   LINKED_IN: "LinkedIn",
-  CSS: "Css"
+  CSS: "Css",
 }
 
-
-export default tags;
+export default tags

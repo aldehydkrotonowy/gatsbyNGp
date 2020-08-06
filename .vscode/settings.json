@@ -21,10 +21,5 @@
     "titleBar.activeBackground": "#632A62",
     "titleBar.activeForeground": "#FCF9FC"
   },
-  "cSpell.words": [
-    "Bergiela",
-    "Krzysztof",
-    "Parametron",
-    "Sitecore"
-  ]
+  "cSpell.words": ["Bergiela", "Krzysztof", "Parametron", "Sitecore"]
 }
