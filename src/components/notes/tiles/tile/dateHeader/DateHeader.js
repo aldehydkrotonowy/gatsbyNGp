@@ -1,7 +1,11 @@
-import React from "react"
+import React from "react";
+import PropTypes from "prop-types";
 
-const DateHeader = ({ date }) => {
-  return <h1>{date}</h1>
-}
+const DateHeader = ({ date, styles }) => {
+  return <h1 className={styles}>{date}</h1>;
+};
 
-export default DateHeader
+DateHeader.propTypes = {
+  date: PropTypes.string.isRequired,
+};
+export default DateHeader;

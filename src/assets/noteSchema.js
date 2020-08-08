@@ -1,35 +1,4 @@
-export const keys = {
-  _date: {
-    name: "date",
-    defaultVal: "",
-  },
-  _tags: {
-    name: "tags",
-    defaultVal: [],
-  },
-  _keywords: {
-    name: "keywordsOfTheDay",
-    defaultVal: [],
-  },
-  _workEvents: {
-    name: "workEvents",
-    defaultVal: [],
-  },
-  _bulletsList: {
-    name: "bulletList",
-    defaultVal: [],
-  },
-  _longerNotes: {
-    name: "notes",
-    defaultVal: [{ title: "", text: "" }],
-  },
-  _articlesList: {
-    name: "articles",
-    defaultVal: [{ title: "", url: "", interesting: [] }],
-  },
-}
-
-export const noteSchema = {
+export const noteStructureSchema = {
   _date: {
     key: "date",
     value: {
@@ -86,4 +55,28 @@ export const noteSchema = {
       ],
     },
   },
-}
+  _interestingWebsites: {
+    key: "websites",
+    value: {
+      type: "object",
+      shape: [
+        { key: "name", init: "" },
+        { key: "url", init: "" },
+        { key: "description", init: "" },
+      ],
+    },
+  },
+  _interestingSoftware: {
+    key: "software",
+    value: {
+      type: "object",
+      shape: [
+        { key: "name", init: "" },
+        { key: "url", init: "" },
+        { key: "description", init: "" },
+      ],
+    },
+  },
+};
+
+export default noteStructureSchema;

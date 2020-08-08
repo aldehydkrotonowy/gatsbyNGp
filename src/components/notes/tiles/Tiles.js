@@ -1,5 +1,6 @@
-import React from "react"
-import Tile from "components/notes/tiles/tile/Tile"
+import React from "react";
+import Tile from "components/notes/tiles/tile/Tile";
+import PropTypes from "prop-types";
 
 const Tiles = ({ dayNoteList = [] }) => {
   return (
@@ -8,7 +9,11 @@ const Tiles = ({ dayNoteList = [] }) => {
         <Tile key={dayNote.date} dayNote={dayNote} />
       ))}
     </>
-  )
-}
+  );
+};
 
-export default Tiles
+Tiles.propTypes = {
+  dayNoteList: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
+
+export default Tiles;
