@@ -29,10 +29,15 @@ export const dayNote = {
   ],
   [noteSchema._articlesList.key]: [
     {
-      title: "",
-      url: "",
+      title: "User Timing API",
+      url: "https://www.html5rocks.com/en/tutorials/webperformance/usertiming/",
       interesting: [],
     },
+    {
+      title: "Obniżone składki ZUS przez 24 miesiące",
+      url: "https://www.biznes.gov.pl/pl/firma/zus/chce-rozliczac-zus/obnizone-skladki-zus-przez-24-miesiace",
+      description: []
+    }
   ],
   [noteSchema._dayDescription.key]: "",
   [noteSchema._videos.key]: [

@@ -34,7 +34,6 @@ export const dayNote = {
       interesting: [],
     },
   ],
-  [noteSchema._dayDescription.key]: "",
   [noteSchema._videos.key]: [
     {
       name: "",
