@@ -1,4 +1,4 @@
-import noteSchema from "../noteSchema";
+import { noteSchema } from "../keys";
 // import tags from '../tags';
 
 export const dayNote = {
@@ -7,7 +7,14 @@ export const dayNote = {
   [noteSchema._keywords.key]: [],
   [noteSchema._workEvents.key]: [],
   [noteSchema._bulletsList.key]: [],
-  [noteSchema._interestingWebsites.key]: [
+  [noteSchema._interestingSoftware.key]: [
+    {
+      title: "",
+      url: "",
+      description: "",
+    },
+  ],
+  [key._interestingWebsites.key]: [
     {
       name: "",
       url: "",
@@ -27,7 +34,6 @@ export const dayNote = {
       interesting: [],
     },
   ],
-  [noteSchema._dayDescription.key]: "",
   [noteSchema._videos.key]: [
     {
       name: "",

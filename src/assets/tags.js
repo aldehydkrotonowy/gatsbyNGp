@@ -5,6 +5,7 @@ const tags = {
   SOFT: "Software",
   WEB: "Websites",
   RUST: "Rust",
+  JS: "JavaScript"
 };
 
 export default tags;

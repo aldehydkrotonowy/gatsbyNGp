@@ -77,6 +77,24 @@ const noteStructureSchema = {
       ],
     },
   },
+  _dayDescription: {
+    key: "dayDescription",
+    value: {
+      type: "string",
+      shape: ""
+    }
+  },
+  _videos: {
+    key: "videos",
+    value: {
+      type: "object",
+      shape: [
+        { key: "title", init: "" },
+        { key: "url", init: "" },
+        { key: "description", init: "" },
+      ],
+    },
+  },
 };
 
 export default noteStructureSchema;

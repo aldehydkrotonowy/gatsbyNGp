@@ -39,5 +39,12 @@ export const dayNote = {
       interesting: ["BroadcastChannel"],
     },
   ],
+  [noteSchema._videos.key]: [
+    {
+      title: "React + Stripe howto",
+      url: "https://www.youtube.com/watch?v=MjMh62ZXlOw",
+      description: "payment platform"
+    }
+  ]
 };
 export default dayNote;
