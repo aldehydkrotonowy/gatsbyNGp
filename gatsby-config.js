@@ -35,19 +35,42 @@ module.exports = {
           services: "src/services",
           images: "images",
           components: `src/components`,
-          icons: "src/icons"
+          icons: "src/icons",
         },
       },
     },
+    // {
+    //   resolve: "gatsby-plugin-eslint",
+    //   options: {
+    //     test: /\.js$|\.jsx$/,
+    //     exclude: /(node_modules|.cache|public|_this_is_virtual_fs_path_)/,
+    //     stages: ["develop"],
+    //     options: {
+    //       emitWarning: true,
+    //       failOnError: false,
+    //     },
+    //   },
+    // },
     {
-      resolve: "gatsby-plugin-eslint",
+      resolve: "gatsby-plugin-prettier-eslint",
       options: {
-        test: /\.js$|\.jsx$/,
-        exclude: /(node_modules|.cache|public|_this_is_virtual_fs_path_)/,
-        stages: ["develop"],
-        options: {
-          emitWarning: true,
-          failOnError: false,
+        prettier: {
+          patterns: [
+            // the pattern "**/*.{js,jsx,ts,tsx}" is not used because we will rely on `eslint --fix`
+            "**/*.{css,scss,less}",
+            "**/*.{json,json5}",
+            "**/*.{graphql}",
+            "**/*.{md,mdx}",
+            "**/*.{html}",
+            "**/*.{yaml,yml}",
+          ],
+        },
+        eslint: {
+          patterns: "**/*.{js,jsx,ts,tsx}",
+          customOptions: {
+            fix: true,
+            cache: true,
+          },
         },
       },
     },
@@ -55,12 +78,12 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /src\/icons\/svg/ // See below to configure properly
-        }
-      }
-    }
+          include: /src\/icons\/svg/, // See below to configure properly
+        },
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

@@ -4,6 +4,7 @@ const tags = {
   ART: "Articles",
   SOFT: "Software",
   WEB: "Websites",
+  RUST: "Rust",
 };
 
 export default tags;

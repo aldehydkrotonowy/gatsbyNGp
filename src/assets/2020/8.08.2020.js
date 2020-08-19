@@ -2,7 +2,7 @@ import noteSchema from "../noteSchema";
 import tags from "../tags";
 
 export const dayNote = {
-  [noteSchema._date.key]: "8.08.2020",
+  [noteSchema._date.key]: "08-08-2020",
   [noteSchema._tags.key]: [tags.ART, tags.SOFT, tags.WEB],
   [noteSchema._keywords.key]: ["Document Object Model", "JavaScript DataTypes", "BroadcastChannel"],
   [noteSchema._workEvents.key]: [],
@@ -14,7 +14,7 @@ export const dayNote = {
       url: "https://ghidra-sre.org",
     },
   ],
-  [key._interestingWebsites.key]: [
+  [noteSchema._interestingWebsites.key]: [
     {
       name: "openbase",
       url: "https://openbase.io",
@@ -31,13 +31,13 @@ export const dayNote = {
     {
       title: "Build your own React",
       url: "https://pomb.us/build-your-own-react/",
-      interesting: ["React from scratch"]
+      interesting: ["React from scratch"],
     },
     {
       title: "Send data between chrome tabs",
       url: "https://dev.to/dcodeyt/send-data-between-tabs-with-javascript-2oa",
-      interesting: ["BroadcastChannel"]
-    }
+      interesting: ["BroadcastChannel"],
+    },
   ],
 };
 export default dayNote;

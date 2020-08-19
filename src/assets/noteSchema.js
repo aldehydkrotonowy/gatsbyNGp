@@ -1,4 +1,4 @@
-export const noteStructureSchema = {
+const noteStructureSchema = {
   _date: {
     key: "date",
     value: {

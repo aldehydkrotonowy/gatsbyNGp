@@ -1,5 +1,5 @@
 import React from "react";
-import DateHeader from "components/notes/tiles/tile/dateHeader/DateHeader";
+import NoteHeader from "components/notes/tiles/tile/noteHeader/NoteHeader";
 import PropTypes from "prop-types";
 import styles from "./tile.module.css";
 import NoteIcon from "icons/svg/notes-svgrepo-com.svg";
@@ -19,7 +19,7 @@ const Tile = ({ dayNote: { date } }) => {
         <img src={NoteIcon} alt="NoteIcon" />
       </div>
       <div className={styles.tileContent}>
-        <DateHeader styles={styles.dateSection} date={date} />
+        <NoteHeader date={date} />
         <div>{filler}</div>
       </div>
     </div>

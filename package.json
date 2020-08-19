@@ -32,6 +32,7 @@
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
     "gatsby-plugin-eslint": "^2.0.8",
+    "gatsby-plugin-prettier-eslint": "^1.0.4",
     "prettier": "2.0.5"
   },
   "keywords": [
@@ -39,7 +40,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "fix-lint": "eslint src --fix",
+    "fix-lint": "eslint /* --fix",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",

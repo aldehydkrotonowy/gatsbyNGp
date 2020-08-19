@@ -2,7 +2,7 @@ import noteSchema from "../noteSchema";
 import tags from "../tags";
 
 export const dayNote = {
-  [noteSchema._date.key]: "7.08.2020",
+  [noteSchema._date.key]: "07-08-2020",
   [noteSchema._tags.key]: [tags.LINKED_IN],
   [noteSchema._keywords.key]: [],
   [noteSchema._workEvents.key]: [],

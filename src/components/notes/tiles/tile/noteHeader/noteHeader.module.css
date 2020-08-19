@@ -1,0 +1,17 @@
+.wrapper {
+  margin: 5px 30px 10px 60px;
+  display: flex;
+  justify-content: flex-start;
+}
+.weekDay {
+  margin-right: 10px;
+}
+.date {
+  margin-right: 10px;
+}
+.day {
+  color: "red";
+}
+.lastItem {
+  margin-left: auto;
+}
